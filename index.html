@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAGE Lab @ NAU</title>
+  <meta name="description"
+    content="Research lab of Lan Zhang, Assistant Professor at NAU SICCS. Research in AI/ML security, LLM security, firmware and IoT security, and network intrusion detection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+
+<body>
+
+
+
+  <!-- Header / Nav -->
+  <header>
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <img src="images/logo.svg" alt="SAGE Lab" style="height:32px;vertical-align:middle;margin-right:8px;">
+        <span>SAGE</span> Lab @ NAU
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" data-tab="home" class="active">Home</a></li>
+          <li><a href="#people" data-tab="people">People</a></li>
+          <li><a href="#publications" data-tab="publications">Publications</a></li>
+          <li><a href="#funding" data-tab="funding">Funding</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── Lab Hero Banner ───────────────────────────────────────────────── -->
+  <div class="lab-hero">
+    <div class="lab-hero-bg"></div>
+    <div class="lab-hero-inner">
+      <div class="lab-hero-left">
+        <img src="images/logo.svg" alt="SAGE Lab" class="lab-hero-logo">
+      </div>
+      <div class="lab-hero-right">
+        <h1 class="lab-hero-name">SAGE Lab</h1>
+        <p class="lab-hero-full">Security, AI, and Generative systems Education Lab</p>
+        <p class="lab-hero-tagline">
+          Securing AI systems. Advancing security education with AI.
+        </p>
+
+
+        </wodiv>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+       TAB: HOME
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section id="home" class="tab-section active">
+
+      <!-- Lab intro -->
+      <h2 class="section-heading">About SAGE Lab</h2>
+      <div class="lab-intro">
+        <div class="lab-intro-text">
+          <p>
+            Welcome to the <strong>SAGE Lab</strong> — <em>Security, AI, and Generative systems
+              Education Lab</em> — at the School of Informatics, Computing, and Cyber Systems
+            (SICCS), Northern Arizona University.
+          </p>
+          <p>
+            Our mission is twofold: we <strong>secure AI-driven systems</strong> against
+            a broad spectrum of threats — adversarial attacks on ML models, prompt injection
+            and jailbreaks targeting large language models, logic vulnerabilities in firmware
+            and IoT platforms, privacy leakage, and network intrusions — and we
+            <strong>harness AI to advance cybersecurity education</strong>. SAGE Lab pushes
+            the frontier where artificial intelligence and security meet.
+          </p>
+          <p>
+            We are actively looking for motivated Ph.D. students and research collaborators.
+            If you are interested in joining, please <a href="mailto:lan.zhang@nau.edu">reach
+              out to Dr. Lan Zhang</a> with your CV and a brief research statement.
+          </p>
+        </div>
+      </div>
+
+      <!-- Research Areas -->
+      <div class="research-areas">
+        <h2 class="section-heading" style="margin-top:40px">Research Areas</h2>
+        <p style="margin:12px 0 20px;color:var(--muted)">
+          Our lab investigates the security of AI-driven systems and builds defenses
+          against emerging threats — from adversarial machine learning to LLM jailbreaks,
+          firmware vulnerabilities, and the use of LLMs to advance security education.
+        </p>
+        <div class="research-grid">
+
+          <div class="research-card">
+            <h4>AI / ML Security</h4>
+            <p>
+              Adversarial attacks and defenses for ML-based malware detectors and
+              graph neural networks; semantics-preserving reinforcement learning attacks;
+              and bias analysis in deep learning classifiers.
+            </p>
+          </div>
+
+          <div class="research-card">
+            <h4>LLM Security</h4>
+            <p>
+              Prompt injection in multimodal LLMs, jailbreaking via neural carrier
+              articles, LLM fingerprinting, and harnessing LLMs for automated
+              vulnerability repair and code security analysis.
+            </p>
+          </div>
+
+          <div class="research-card">
+            <h4>Firmware &amp; IoT Security</h4>
+            <p>
+              Specification-guided firmware emulation (ACM CCS'22), logic bug
+              discovery in IoT platforms, and context-aware protocol fuzzing
+              for Bluetooth Low Energy stacks (NDSS'26).
+            </p>
+          </div>
+
+          <div class="research-card">
+            <h4>Network Intrusion Detection</h4>
+            <p>
+              Neural network-based detection of network attacks, explainable AI
+              for intrusion analysis, and evaluation of deep learning detectors
+              across diverse attack scenarios.
+            </p>
+          </div>
+
+          <div class="research-card">
+            <h4>Privacy &amp; Trustworthy ML</h4>
+            <p>
+              Membership inference attacks and defenses, privacy-preserving
+              machine learning under homomorphic encryption, and federated
+              learning for sensitive domains such as healthcare.
+            </p>
+          </div>
+
+          <div class="research-card">
+            <h4>LLM in Security Education</h4>
+            <p>
+              Leveraging large language models to enhance cybersecurity education —
+              automated CTI operationalization, AI-assisted vulnerability explanation,
+              and intelligent tutoring for security concepts.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- News -->
+      <h2 class="section-heading" style="margin-top:48px">News</h2>
+      <ul class="news-list" id="news-list">
+        <li>
+          <span class="news-date">2026</span>
+          <span>Paper on context-aware BLE stack fuzzing (BSFuzzer) accepted at <strong>NDSS 2026</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          <span>Paper on membership inference attacks accepted at <strong>IEEE TIFS</strong>.</span>
+        </li>
+        <li>
+          <span class="news-date">2024</span>
+          <span>Paper on LLM-based vulnerability repair accepted at <strong>ACM IWSPA 2024</strong></span>
+        </li>
+        <li>
+          <span class="news-date">2022</span>
+          <span>Paper on specification-guided firmware emulation accepted at <strong>ACM CCS 2022</strong>.</span>
+        </li>
+        <!-- Add new items above this line -->
+      </ul>
+
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+       TAB: PEOPLE
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section id="people" class="tab-section">
+      <h2 class="section-heading">People</h2>
+
+      <!-- PI -->
+      <h3 class="section-subheading">Principal Investigator</h3>
+      <div class="pi-card">
+        <div class="pi-photo">
+          <img src="images/lan.jpeg" alt="Lan Zhang" onerror="this.parentElement.textContent='👤'">
+        </div>
+        <div class="pi-info">
+          <div class="pi-name">Lan Zhang</div>
+          <div class="pi-title">Assistant Professor · SAGE Lab Director</div>
+          <div class="pi-affil">School of Informatics, Computing, and Cyber Systems (SICCS), NAU</div>
+
+          <p class="pi-bio">
+            Dr. Lan Zhang's research lies at the intersection of <strong>cybersecurity</strong>
+            and <strong>machine learning</strong>. She works on securing AI/ML systems against
+            adversarial attacks, hardening large language models against prompt injection and
+            jailbreaks, exposing logic vulnerabilities in firmware and IoT platforms, and
+            leveraging LLMs to advance cybersecurity education. Her work has appeared at
+            top-tier venues including ACM CCS, NDSS, IEEE DSN, IEEE TDSC, and IEEE TIFS.
+          </p>
+
+          <div class="pi-details-grid">
+            <div>
+              <strong>Education</strong>
+              <ul>
+                <li>Ph.D., Informatics, Penn State University, 2023</li>
+                <li>M.S., Software Engineering, Tsinghua University, 2019</li>
+                <li>B.S., Software Engineering, Beijing Jiaotong University, 2016</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Contact</strong>
+              <ul>
+                <li>✉ <a href="mailto:lan.zhang@nau.edu">lan.zhang@nau.edu</a></li>
+                <li>📍 1295 S. Knoles Dr., Flagstaff, AZ 86011</li>
+                <li>🕐 Office hours by appointment</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pi-links">
+            <a href="mailto:lan.zhang@nau.edu">Email</a>
+            <a href="https://scholar.google.com/citations?user=dgDl4uAAAAAJ" target="_blank" rel="noopener">Google
+              Scholar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PhD Students -->
+      <h3 class="section-subheading">Ph.D. Students</h3>
+      <div class="people-grid" id="student-grid">
+        <p style="color:var(--muted);font-size:14px">Loading…</p>
+      </div>
+
+      <!-- Alumni -->
+      <h3 class="section-subheading" style="margin-top:40px">Alumni</h3>
+      <table class="alumni-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Year</th>
+            <th>Current Position</th>
+          </tr>
+        </thead>
+        <tbody id="alumni-tbody">
+          <tr>
+            <td colspan="4" style="color:var(--muted);font-style:italic">No alumni listed yet.</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+       TAB: PUBLICATIONS
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section id="publications" class="tab-section">
+      <h2 class="section-heading">Publications</h2>
+
+      <p class="pub-update-note">
+        📅 Publication list is refreshed from Google Scholar every 6 months.
+        Last updated: <strong id="pub-last-updated">May 2026</strong>.
+        &nbsp;
+        <a href="https://scholar.google.com/citations?user=dgDl4uAAAAAJ" target="_blank" rel="noopener">View full Google
+          Scholar profile →</a>
+      </p>
+
+      <div class="pub-controls">
+        <input type="text" id="pub-search" placeholder="Search by title, author, venue…">
+        <select id="pub-type">
+          <option value="">All types</option>
+          <option value="conference">Conference</option>
+          <option value="journal">Journal</option>
+          <option value="workshop">Workshop</option>
+          <option value="preprint">Preprint</option>
+        </select>
+      </div>
+
+      <div id="pub-list"></div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+       TAB: FUNDING
+  ══════════════════════════════════════════════════════════════════════ -->
+    <section id="funding" class="tab-section">
+      <h2 class="section-heading">Funding</h2>
+      <p style="color:var(--muted);margin:12px 0 24px;font-size:14px">
+        We gratefully acknowledge support from the following funding sources.
+      </p>
+      <div class="funding-grid" id="funding-list">
+        <p style="color:var(--muted);font-size:14px">Loading…</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        © <span id="year"></span> SAGE Lab · NAU SICCS ·
+        <a href="https://nau.edu/siccs" target="_blank" rel="noopener">Northern Arizona University</a>
+      </p>
+
+    </footer>
+
+    <script src="data/publications.js"></script>
+    <script src="data/students.js"></script>
+    <script src="data/funding.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

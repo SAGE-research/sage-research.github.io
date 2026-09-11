@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700&amp;display=swap');
+  </style>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08152b"/>
+      <stop offset="100%" stop-color="#0d2040"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <linearGradient id="connectorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#22d3ee"/>
+      <stop offset="80%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="80" cy="80" r="78" fill="url(#bgGrad)"/>
+  <circle cx="80" cy="80" r="77" fill="none" stroke="rgba(34,211,238,0.18)" stroke-width="1.5"/>
+
+  <!-- Shield outline -->
+  <path d="M80 22 L108 37 L108 65 Q108 90 80 102 Q52 90 52 65 L52 37 Z"
+        fill="rgba(34,211,238,0.06)"
+        stroke="url(#shieldGrad)"
+        stroke-width="2.5"
+        stroke-linejoin="round"/>
+
+  <!-- Neural network: 4 nodes in diamond formation -->
+  <g stroke-width="1.4" fill="none">
+    <line x1="80" y1="42" x2="65" y2="63" stroke="rgba(34,211,238,0.55)"/>
+    <line x1="80" y1="42" x2="95" y2="63" stroke="rgba(34,211,238,0.55)"/>
+    <line x1="65" y1="63" x2="80" y2="84" stroke="rgba(34,211,238,0.55)"/>
+    <line x1="95" y1="63" x2="80" y2="84" stroke="rgba(34,211,238,0.55)"/>
+    <line x1="65" y1="63" x2="95" y2="63" stroke="rgba(52,211,153,0.38)"/>
+    <line x1="80" y1="42" x2="80" y2="84" stroke="rgba(52,211,153,0.28)"/>
+  </g>
+
+  <!-- Glowing nodes -->
+  <g filter="url(#glow)">
+    <circle cx="80" cy="42" r="5.5" fill="url(#nodeGrad)"/>
+    <circle cx="65" cy="63" r="5.5" fill="url(#nodeGrad)"/>
+    <circle cx="95" cy="63" r="5.5" fill="url(#nodeGrad)"/>
+    <circle cx="80" cy="84" r="5.5" fill="url(#nodeGrad)"/>
+  </g>
+  <circle cx="80" cy="42" r="2.5" fill="white"/>
+  <circle cx="65" cy="63" r="2.5" fill="white"/>
+  <circle cx="95" cy="63" r="2.5" fill="white"/>
+  <circle cx="80" cy="84" r="2.5" fill="white"/>
+
+  <!-- SAGE wordmark -->
+  <text x="80" y="126"
+    font-family="'Oxanium', 'Courier New', monospace"
+    font-size="28" font-weight="700"
+    fill="white" text-anchor="middle"
+    letter-spacing="1">SAGE</text>
+
+  <!-- Connecting stroke — continuous flowing line through letter bases -->
+  <path d="M 36 130 C 48 127, 56 132, 66 130 C 72 129, 74 132, 80 130 C 86 128, 90 132, 98 130 C 108 128, 116 132, 124 130"
+        fill="none"
+        stroke="url(#connectorGrad)"
+        stroke-width="1.8"
+        stroke-linecap="round"/>
+
+</svg>
