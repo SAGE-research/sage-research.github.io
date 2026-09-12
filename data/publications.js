@@ -1,4 +1,4 @@
-// Auto-generated 2026-05-05 from Google Scholar
+// Auto-generated 2026-09-12 from Google Scholar
 window.LAB_PUBLICATIONS = [
   {
     "year": 2026,
@@ -11,10 +11,18 @@ window.LAB_PUBLICATIONS = [
   {
     "year": 2026,
     "title": "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection",
-    "authors": "Ting Yang and Yue Qin and Lan Zhang and Zhiyuan Fu and Junfan Chen and Jice Wang and Shangru Zhao and Qi Li and Ruidong Li and He Wang and Yuqing Zhang",
+    "authors": "Ting Yang126 and Yue Qin and Lan Zhang and Zhiyuan Fu and Junfan Chen and Jice Wang and Shangru Zhao and Qi Li78 and Ruidong Li and He Wang and Yuqing Zhang61",
     "venue": "",
-    "url": "",
+    "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f94-paper.pdf",
     "type": "conference"
+  },
+  {
+    "year": 2026,
+    "title": "Beyond the Wrapper: Identifying Artifact Reliance in Static Malware Classifiers using TRUSTEE",
+    "authors": "Riyazuddin Mohammed and Lan Zhang",
+    "venue": "arXiv preprint arXiv:2605.07034",
+    "url": "https://arxiv.org/abs/2605.07034",
+    "type": "preprint"
   },
   {
     "year": 2026,
@@ -29,7 +37,31 @@ window.LAB_PUBLICATIONS = [
     "title": "From Pixels to Prompts: A Systematic Study and Introduction to Image Prompt Injection Attacks",
     "authors": "Neha Nagaraja and Lan Zhang and Zhilong Wang",
     "venue": "Computer",
-    "url": "https://ieeexplore.ieee.org/abstract/document/11459349/",
+    "url": "https://www.computer.org/csdl/api/v1/periodical/mags/co/2026/04/11459349/2fj9AyLXAgU/download-article/pdf",
+    "type": "conference"
+  },
+  {
+    "year": 2026,
+    "title": "Hide Your Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Carrier Articles",
+    "authors": "Zhilong Wang and Haizhou Wang and Nanqing Luo and Lan Zhang and Peng Liu and Yebo Cao and Xiaoyan Sun",
+    "venue": "",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-32767-3_13",
+    "type": "conference"
+  },
+  {
+    "year": 2026,
+    "title": "Integrating Large Language Models with Cybersecurity Education",
+    "authors": "Wei Yan and Soumiki Chattopadhyay and Lan Zhang and Ashish Amresh",
+    "venue": "",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3770761.3777269",
+    "type": "conference"
+  },
+  {
+    "year": 2026,
+    "title": "PHANTOM: Undermining Mobile System Availability via Malformed Installation Metadata",
+    "authors": "Bo Zhang and Zhilong Wang and Mian Wan and Lan Zhang and Tianyi Hu",
+    "venue": "",
+    "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-bo",
     "type": "conference"
   },
   {
@@ -69,7 +101,7 @@ window.LAB_PUBLICATIONS = [
     "title": "Can ai fix buggy code? exploring the use of large language models in automated program repair",
     "authors": "Lan Zhang and Anoop Singhal and Qingtian Zou and Xiaoyan Sun and Peng Liu and Hsiao-Ying Lin",
     "venue": "",
-    "url": "https://par.nsf.gov/biblio/10640762",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11052844/",
     "type": "conference"
   },
   {
@@ -82,7 +114,7 @@ window.LAB_PUBLICATIONS = [
   },
   {
     "year": 2025,
-    "title": "Deep Learning Assisted Reverse Engineering: Recognizing Encryption Loops in Ransomware",
+    "title": "Deep learning assisted reverse engineering: Recognizing encryption loops in ransomware",
     "authors": "Nanqing Luo and Haizhou Wang and Zhilong Wang and Lan Zhang and Ping Chen and Peng Liu",
     "venue": "",
     "url": "https://ieeexplore.ieee.org/abstract/document/11354713/",
@@ -99,7 +131,7 @@ window.LAB_PUBLICATIONS = [
   {
     "year": 2025,
     "title": "FDLLM: A Dedicated Detector for Black-Box LLMs Fingerprinting",
-    "authors": "Zhiyuan Fu and Junfan Chen and Lan Zhang and Ting Yang and Jun Niu and Hongyu Sun and Ruidong Li and Peng Liu and Jice Wang and Fannv He and Qiuling Yue and Yuqing Zhang",
+    "authors": "Zhiyuan Fu and Junfan Chen and Lan Zhang and Ting Yang and Jun Niu and Hongyu Sun and Ruidong Li and Peng Liu and Jice Wang and Fannv He and Yuqing Zhang",
     "venue": "",
     "url": "https://ieeexplore.ieee.org/abstract/document/11354627/",
     "type": "conference"
@@ -114,7 +146,7 @@ window.LAB_PUBLICATIONS = [
   },
   {
     "year": 2025,
-    "title": "To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt",
+    "title": "To protect the LLM agent against the prompt injection attack with polymorphic prompt",
     "authors": "Zhilong Wang and Neha Nagaraja and Lan Zhang and Hayretdin Bahsi and Pawan Patil and Peng Liu",
     "venue": "",
     "url": "https://ieeexplore.ieee.org/abstract/document/11068353/",
@@ -143,22 +175,6 @@ window.LAB_PUBLICATIONS = [
     "venue": "",
     "url": "https://ieeexplore.ieee.org/abstract/document/10782098/",
     "type": "conference"
-  },
-  {
-    "year": 2024,
-    "title": "Hide Your Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Carrier Articles",
-    "authors": "Zhilong Wang and Haizhou Wang and Nanqing Luo and Lan Zhang and Xiaoyan Sun and Yebo Cao and Peng Liu",
-    "venue": "arXiv preprint arXiv:2408.11182",
-    "url": "https://arxiv.org/abs/2408.11182",
-    "type": "preprint"
-  },
-  {
-    "year": 2024,
-    "title": "Hide your malicious goal into benign narratives: Jailbreak large language models through neural carrier articles",
-    "authors": "Zhilong Wang and Haizhou Wang and Nanqing Luo and Lan Zhang and Xiaoyan Sun and Yebo Cao and Peng Liu",
-    "venue": "Preprint",
-    "url": "https://scholar.google.com/scholar?cluster=7317582139820624741&hl=en&oi=scholarr",
-    "type": "preprint"
   },
   {
     "year": 2024,

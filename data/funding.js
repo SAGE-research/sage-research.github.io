@@ -1,8 +1,18 @@
 window.LAB_FUNDING = [
   {
     "agency": "NSF",
+    "program": "RI-1",
+    "title": "A Generative AI Learning Agent Infrastructure for STEM Education Research",
+    "amount": "$398,000",
+    "period": "2026–2029",
+    "pi": "Lan Zhang (PI)",
+    "description": " ",
+    "url": ""
+  },
+  {
+    "agency": "NSF",
     "program": "CRII",
-    "title": "CRII: SaTC: Adversarial Malware Generation: A Universal Evasion Framework Targeting Neural Network-based Malware Detectors",
+    "title": "Adversarial Malware Generation: A Universal Evasion Framework Targeting Neural Network-based Malware Detectors",
     "amount": "$174,103",
     "period": "2025–2027",
     "pi": "Lan Zhang (PI)",
