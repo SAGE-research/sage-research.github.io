@@ -12,7 +12,7 @@ window.LAB_STUDENTS = [
     "name": "Soumiki Chattopadhyay",
     "level": "PhD",
     "year": "2nd year",
-    "photo": "images/miki.JPG",
+    "photo": "images/miki.jpg",
     "research": "My research lies at the intersection of Human-Computer Interaction (HCI) and Artificial Intelligence (AI), with a focus on how intelligent systems can augment human cognition, decision-making, student learning, and user experiences.",
     "email": "sc4397@nau.edu",
     "website": ""
